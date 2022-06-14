@@ -8,8 +8,8 @@ let reset = document.getElementById("resetBtn");
 
 function delayExpand() {
   setTimeout(() => {
-    div.style.width = (50 * increase.value).concat("px");
-    div.style.height = (50 * increase.value).concat("px");
+    div.style.width = increase.value.concat("px");
+    div.style.height = increase.value.concat("px");
   }, Number(delay.value) * 1000);
   backToNormal();
 }
