@@ -1,10 +1,10 @@
 let increase = document.getElementById("increase");
-let reduce = document.getElementById("reduce");
-let grow = document.getElementById("grow");
+let reduce = document.getElementById("reduceBtn");
+let grow = document.getElementById("growBtn");
 let delay = document.getElementById("delay");
 let div = document.getElementById("random");
-let round = document.getElementById("round");
-let reset = document.getElementById("reset");
+let round = document.getElementById("roundBtn");
+let reset = document.getElementById("resetBtn");
 
 function delayExpand() {
   setTimeout(() => {
