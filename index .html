@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <style>
+      #random {
+        width: 50px;
+        height: 50px;
+        background-color: aqua;
+      }
+
+      div {
+        display: flex;
+        gap: 5px;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="text" placeholder="Scale ratio" id="increase" />
+      <br />
+      <br />
+      <input type="number" placeholder="Time for delay" id="delay" />
+    </div>
+
+    <button id="grow">Bigger</button>
+    <button id="reduce">Smaller</button>
+    <button id="round">Round</button>
+    <button id="reset">Reset</button>
+    <br />
+    <br />
+    <div id="random"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
