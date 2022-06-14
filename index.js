@@ -11,6 +11,7 @@ function delayExpand() {
     div.style.width = increase.value.concat("px");
     div.style.height = increase.value.concat("px");
   }, Number(delay.value) * 1000);
+  backToNormal();
 }
 
 function delayShrink() {
@@ -18,18 +19,20 @@ function delayShrink() {
     div.style.width = increase.value.concat("px");
     div.style.height = increase.value.concat("px");
   }, Number(delay.value) * 1000);
+  backToNormal();
 }
 
 function delayRoundBorder() {
   setTimeout(() => {
     div.style.borderRadius = increase.value.concat("px");
   }, Number(delay.value) * 1000);
+  backToNormal();
 }
 
 function backToNormal() {
   div.style.width = "50px";
   div.style.height = "50px";
-  div.style.backgroundColor = "aqua";
+  div.style.backgroundColor = "rgb(13, 92, 37)";
   div.style.borderRadius = 0;
 }
 
